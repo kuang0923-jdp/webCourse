@@ -1,17 +1,27 @@
        p {
           /* 字体颜色: 茶红色 */
           color: maroon;
+          font-size: 2rem; /* 设置根元素字体大小 */ 
        }
 
        h1,h2 {
               font-family: "Cascadia Mono";
-       
-              color: grey;
-       }  
+               color: grey;
+               font-size: 2rem; /* 设置根元素字体大小 */ 
+              }
 
        h1 { 
            border-bottom: 1px solid black;
+           font-size: 2rem; /* 设置根元素字体大小 */ 
        }
        body {
            font-family: "Segoe Script"; /* 注意双引号这个细节，想想原因 */
+           font-size: 2rem; /* 设置根元素字体大小 */ 
        }
+       body{
+        color: rgb(225, 156, 65);
+        color: rgb(186, 188, 199);
+        color: #5882DC;
+        color: rgba(111, 196, 199, 0.8);
+        color: #04090ccc;
+    }

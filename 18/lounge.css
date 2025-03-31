@@ -37,5 +37,33 @@ p,body,h1 {
   background-position: top left;
   padding: 25px;
   padding-left: 80px;
-    margin-right: 250px;
+  margin-right: 250px;
+  border-style: solid;
+  border-color: white;
+  border-top-color: white;
+  border-bottom-style: dashed;
+  border-left-width: thick;
+  border-radius: 5px;
+  border-top-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #007e7e;
+      border-radius: 50%;
+}
+.elixirs {
+	border-width: thin;
+	border-style: solid;
+	border-color: #007e7e;
+  width: 200px; /* width 属性允许指定内容区的宽度 */
+  padding-right:   20px;
+	padding-bottom:  20px;
+	padding-left:    20px;
+	margin-left:     20px;
+  background-image:    url(images/cocktail.gif);
+	background-repeat:   repeat-x;
+	text-align:          center;  /* 文本剧中对齐 */
 }

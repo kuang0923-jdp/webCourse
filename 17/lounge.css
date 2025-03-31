@@ -1,7 +1,7 @@
 body {
 	font-size: small; /* 新的属性值，请自行了解 */
 	font-family: Verdana, Helvetica, Arial;
-  line-height: 1.6em;
+  line-height: 1.7em;
 }
 
 h1, h2 {
@@ -37,5 +37,20 @@ p,body,h1 {
   background-position: top left;
   padding: 25px;
   padding-left: 80px;
-    margin-right: 250px;
+  margin-right: 250px;
+  border-style: solid;
+  border-color: white;
+  border-top-color: white;
+  border-bottom-style: dashed;
+  border-left-width: thick;
+  border-radius: 5px;
+  border-top-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #007e7e;
+      border-radius: 50%;
 }

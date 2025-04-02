@@ -72,3 +72,40 @@ p,body,h1 {
 	background-repeat:   repeat-x;
 	text-align:          center;  /* 文本剧中对齐 */
 }
+.cd {
+	font-style: italic;
+}
+
+.artist {
+	font-weight: bold;
+  display: inline-block;
+}
+a {
+	color: red;
+}
+/* 未访问状态 */
+a:link {
+  color: green;
+}
+
+/* 已访问状态 */
+a:visited {
+  color: red;
+}
+
+/* 悬停状态 */
+a:hover {
+  color: yellow;
+}
+.elixirs a:link {
+  color: #007e7e;
+}
+
+.elixirs a:visited {
+  color: #333333;
+}
+
+.elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
+}
